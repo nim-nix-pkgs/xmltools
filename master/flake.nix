@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-xmltools-master.flake = false;
+  inputs.src-xmltools-master.ref   = "refs/heads/master";
   inputs.src-xmltools-master.owner = "vegansk";
-  inputs.src-xmltools-master.ref   = "master";
   inputs.src-xmltools-master.repo  = "xmltools";
   inputs.src-xmltools-master.type  = "github";
   
